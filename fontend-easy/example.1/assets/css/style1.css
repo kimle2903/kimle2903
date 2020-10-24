@@ -1,0 +1,178 @@
+.about_us {
+    /* background-color: #757D7F;
+    height: 250px; */
+    margin-top: 50px;
+}
+
+.img_about h2 {
+    width: 100%;
+    height: 250px;
+    background-color: #757D7F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: white;
+}
+
+.history {
+    height: 918px;
+    width: 969px;
+    margin: 0px auto;
+}
+
+.history .title {
+    margin-top: 95px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.content_history {
+    text-align: inherit;
+    margin: 0px 135px 60px;
+}
+
+.video_zise {
+    height: 446px;
+    width: 969px;
+    background-color: #757D7F;
+}
+
+.desc {
+    padding: 20px 0px;
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.cooks {
+    height: 640px;
+    background-color: #C9E4D6;
+}
+
+.cooks .title {
+    padding-top: 95px;
+    padding-bottom: 40px;
+    background-color: #C9E4D6;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.img_cooks {
+    display: flex;
+    justify-content: center;
+    background-color: #C9E4D6;
+}
+
+.img_item {
+    width: 270px;
+    height: 324px;
+    background-color: #C9E4D6;
+    margin: 0px 15px;
+}
+
+.img_270_263 {
+    height: 262px;
+    width: 100%;
+    background-color: #757D7F;
+}
+
+.img_item .desc {
+    width: 100%;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    margin-top: -3px;
+    display: flex;
+    justify-content: center;
+}
+
+.speciality {
+    width: 100%;
+    height: 572px;
+    display: flex;
+    position: relative;
+}
+
+.img_930_572 {
+    height: 572px;
+    flex: 1;
+    background-color: #757D7F;
+}
+
+.speciality_content {
+    height: 572px;
+    flex: 1;
+    padding-left: 70px;
+    border-bottom: 2px solid #dfdfdf;
+}
+
+.speciality_content .title {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.speciality_content .content_child {
+    padding-right: 30%;
+}
+
+.content_child h4 {
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.content_child p {
+    line-height: 24px;
+    color: rgb(14 14 14 / 0.8);
+    font-weight: 200;
+    padding-bottom: 30px;
+}
+
+.speciality_content .img_210_210 {
+    width: 210px;
+    height: 210px;
+    background-color: #757D7F;
+    position: absolute;
+    right: 15%;
+    bottom: -29%;
+}
+
+.open_hourse {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+}
+
+.open_hourse h3 {
+    flex: 2;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 30px;
+}
+
+.schedule {
+    flex: 3;
+    display: flex;
+    justify-content: start;
+}
+
+.time_open {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.hours {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f59506;
+}
