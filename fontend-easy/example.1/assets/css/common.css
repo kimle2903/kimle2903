@@ -2,6 +2,10 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* background-color: #e6ece9; */
+}
+
+body {
     background-color: #e6ece9;
 }
 

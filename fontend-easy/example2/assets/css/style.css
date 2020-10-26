@@ -1,0 +1,441 @@
+/* start header */
+
+header {
+    height: 750px;
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: 100% 750px;
+    padding-top: 24px;
+}
+
+.menu {
+    margin: 0px auto;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 62px;
+}
+
+.logo img {
+}
+
+.nav {
+}
+
+.nav_list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_item {
+    margin: 0px 34px;
+    list-style-type: none;
+}
+
+.link_item {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.link_item a {
+}
+
+.your_book {
+    background-color: #fea100;
+    border-radius: 6px;
+    border: 1px solid #fea100;
+}
+
+.your_book p {
+    width: 190px;
+    height: 42px;
+    color: #ffffff;
+    line-height: 42px;
+}
+
+.banner {
+    margin-top: 270px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner .title {
+    font-size: 62px;
+}
+
+.banner .desc {
+    font-size: 42px;
+}
+
+.icon_phone {
+    margin-top: 80px;
+}
+
+.desc_icon_phone {
+    font-size: 14px;
+    color: #fea100;
+    margin-top: 20px;
+}
+
+.phone_number {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 200px;
+}
+
+
+/* start contener */
+
+.food {
+    margin: 34px auto;
+    display: flex;
+}
+
+.food_menu {
+    width: 50%;
+    padding-right: 24px;
+}
+
+.title_menu {
+}
+
+.food_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 0px;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.content_item {
+    /* border-bottom: 1px solid #eeeeee; */
+}
+
+.content_item .title {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 34px;
+}
+
+.content_item .desc {
+    font-size: 14px;
+    color: #5c6369;
+}
+
+.food_item .price {
+    font-size: 26px;
+    font-weight: bold;
+    padding-right: 54px;
+}
+
+.btn_exflor_menu {
+    width: 200px;
+    height: 50px;
+    background-color: #fea100;
+    border: 1px solid #fea100;
+    border-radius: 6px;
+    margin: 18px 0px 84px;
+    color: #fff;
+}
+
+.no_border_bottom {
+    border-bottom-width: 0px;
+}
+
+.food_special {
+    padding-left: 40px;
+}
+
+.food_special .title {
+}
+
+.special_item {
+    margin-top: 30px;
+    position: relative;
+}
+
+.special {
+    width: 320px;
+}
+
+.special .special_img_320_210 {
+    width: 320px;
+    height: 210px;
+}
+
+.special .special_img_320_172 {
+    width: 320px;
+    height: 172px;
+}
+
+.special .content {
+    font-size: 22px;
+    line-height: 44px;
+    background: #edefeb;
+    margin-top: -4px;
+}
+
+.special .content .name {
+    padding-top: 30px;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.special .content .price {
+    color: #fea100;
+    font-weight: bold;
+    padding-left: 40px;
+}
+
+.special_1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.special_2 {
+    position: absolute;
+    top: 20px;
+    left: 100%;
+    z-index: 1;
+}
+
+.reserve_table {
+    background: url(../images/img_reserve_table.jpg) no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.reserve {
+    width: 70%;
+    margin: 0px auto;
+    position: relative;
+}
+
+. title {
+}
+
+.table_title {
+    padding-top: 100px;
+    color: #fff;
+}
+
+.form {
+    margin: 0px auto;
+    position: relative;
+}
+
+.input_info {
+    display: flex;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+}
+
+.custom_input {
+    width: 50%;
+    margin: 0px 10px;
+    padding: 20px;
+}
+
+.form_width {
+    width: 80%;
+    margin: 0px auto;
+    /* position: relative; */
+}
+
+.reserve_info {
+    margin: 0px auto;
+    margin-top: 30px;
+    padding-bottom: 100px;
+    color: #fff;
+}
+
+.reserve_info_relate {
+    margin: 0px auto;
+    width: 78%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.btn_reservation {
+    margin: 0px;
+}
+
+.group_infor {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.infor {
+    line-height: 17px;
+    font-size: 13px;
+}
+
+.title1 {
+}
+
+.title2 {
+    color: #dc5084;
+}
+
+.hostline {
+    padding-left: 15px;
+    font-size: 22px;
+}
+
+.img_reserve_1 {
+    position: absolute;
+    top: -100%;
+    left: -20%;
+}
+
+.img_reserve_2 {
+    position: absolute;
+    bottom: -30px;
+    right: 160px;
+}
+
+.img_293_293 {
+    width: 293px;
+    height: 293px;
+}
+
+.img_241_234 {
+    width: 241px;
+    height: 234px;
+}
+
+.feelback {
+    /* text-align: center; */
+    padding-bottom: 100px;
+}
+
+.title_feelback {
+    margin-top: 100px;
+    /* margin-bottom: 34px; */
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.feelback_clients {
+    margin: 0px auto;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.img_clients {
+    width: 25%;
+}
+
+.img_feelback_269295 {
+}
+
+.content_feelback {
+    height: 75%;
+    margin-left: 30px;
+    padding-right: 120px;
+}
+
+.title_bord {
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.title_bord span {
+    font-size: 24px;
+}
+
+.content_feelback .desc {
+    font-size: 15px;
+    color: #363d43;
+    line-height: 30px;
+    padding-left: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.close_quotes {
+    float: right;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.author {
+    clear: both;
+    padding-top: 20px;
+    border-top: 1px solid #5c6369;
+    width: 260px;
+    padding-left: 30px;
+    font-size: 15;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.gallery {
+    background-color: #edf1f3;
+    padding-bottom: 150px;
+}
+
+.title_gallery {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.list_gallery {
+    margin-top: -14px;
+    height: 340px;
+}
+
+.img_galery_471_340 {
+    width: 471px;
+    height: 340px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.open_hours {
+    margin: 0px auto;
+}
+
+.info_open_hours {
+    height: 222px;
+    display: flex;
+    margin: 0px auto;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.title {
+    width: 40%;
+}
+
+.time {
+    height: 60%;
+    text-align: center;
+}
+
+.time_info {
+}
+
+.time_info .day {
+}
+
+.time_info .desc {
+}

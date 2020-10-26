@@ -2,6 +2,7 @@
     /* background-color: #757D7F;
 height: 250px; */
     margin-top: 50px;
+    background-color: red;
 }
 
 .img_content h2 {
@@ -176,6 +177,7 @@ height: 250px; */
     font-weight: bold;
     color: #f59506;
 }
+
 
 /* blog Detail */
 
@@ -396,4 +398,26 @@ height: 250px; */
 
 .content_post .desc_post {
     font-size: 18px;
+}
+
+.archive {
+    margin-top: 100px;
+}
+
+.archive .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 38px;
+}
+
+.archive_month {
+    display: flex;
+    justify-content: inherit;
+    align-items: center;
+}
+
+.archive_month .month {
+}
+
+.archive_month .number {
 }
