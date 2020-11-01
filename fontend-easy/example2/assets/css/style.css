@@ -3,7 +3,7 @@
 header {
     height: 750px;
     width: 100%;
-    background: url('../images/banner.jpg') no-repeat;
+    background: url("../images/banner.jpg") no-repeat;
     background-size: 100% 750px;
     padding-top: 24px;
 }
@@ -49,6 +49,7 @@ header {
 .link_item {
     text-decoration: none;
     color: #ffffff;
+    font-family: "Sintony", sans-serif;
 }
 
 .link_item a {
@@ -96,6 +97,7 @@ header {
     margin-top: 10px;
     margin-bottom: 200px;
 }
+
 
 /* start contener */
 
@@ -614,7 +616,7 @@ footer {
 
 .banner_top {
     height: 250px;
-    background: url('../images/banner.jpg');
+    background: url("../images/banner.jpg");
     background-size: 100%;
     font-size: 56px;
     color: #fff;
@@ -749,4 +751,10 @@ footer {
 .img_position_about {
     right: -266px;
     top: -130px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
 }
